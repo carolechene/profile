@@ -1,0 +1,125 @@
+body {
+  /* background-color: #F7F9FC; */
+  background-color: #16688183;
+  font-family: 'Roboto', sans-serif;
+  color: #65666b;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1 {
+  color: #062c02;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 30px 20px;
+}
+
+h2 {
+  color: #062c02;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+p {
+  color: rgb(92, 97, 92);
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#tx-underlign {
+  text-decoration: underline;
+  padding: 0;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #F7F9FC;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 20px 7px 30px rgba(0,0,0, .1);
+  margin: 20px 30px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+i {
+  font-size: 48px;
+  color: #166881;
+}
+
+i:hover {
+  color: #062c02;
+  transition: 1s;
+}
+
+.btn-green {
+  background-color: #062c02;
+  color: white;
+  padding: 15px 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px lightgrey;
+  display: block;
+  width: 42%;
+  margin: 0 auto;
+}
+
+.btn-green:hover {
+  background-color:#062b025e;
+  color: white;
+}
+
+.margin-p {
+  margin: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
